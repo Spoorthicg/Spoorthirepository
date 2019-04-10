@@ -2,7 +2,8 @@
  include:
  language: c
  sudo: false # only for faster builds
- compiler: 
+ compiler:
+ -clang
  - gcc
  script:
  - gcc -o test test.c 
